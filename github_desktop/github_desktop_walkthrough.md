@@ -75,8 +75,26 @@ This is analagous to the Git workflow, in which we
 - **Commit** a snapshot of the current state of a repository.
 - **Push** one or more commits to a remote repository (typically on GitHub).
 
+The following image shows the workflow:
+
+<https://raw.githubusercontent.com/unmrds/cc-version-control/7defd94a0c48f65045b40cada4021de02bb3e4e0//images/basic_cycle.png>
+
+Let's step through this process in the desktop application.
+
+### Add
+
+Pick one of the repositories you just created. Navigate to it using a file manager, or by clicking the button in the app to *Show in Explorer* (Windows).
+
+1. Set up the workspace - note that you can add files and directories. Empty directories won't be tracked for changes. That is, Git only tracks changes to documents - empty directories cannot be staged for commits (snapshots).
+1. Add at least one file to the repository. **Text formats are recommended**. Add some text to the file.
+1. Go to the desktop application. Note that the view of the current repository ha changed. 
+	- Under the *Changes* tab, new documents are indicated with a green plus symbol.
+	- Clicking on a document shows changes to the document since the previous commit.
+
+This step demonstrates an important difference between using Git on the command line and using the desktop application. Using the command line, we have to explicitly *add* documents to the next commit (snapshot) using the ```git add``` command. In the desktop application, all new documents are automatically added. In order to exclude a document from the next commit, we have to de-select the check box next to the file name.
 
 
+ 
 
 
 

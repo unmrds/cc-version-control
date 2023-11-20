@@ -15,7 +15,7 @@ The standalone Git application shouldn't create conflicts with the GitHub deskto
 ~~~
 git config --global user.name "YOUR NAME"
 ~~~
-1. Next, type a second command and press ENTER. As above, replace *YOUR EMAIL* with your email address. This should be the email address you used to create your GitHub account.
+3. Next, type a second command and press ENTER. As above, replace *YOUR EMAIL* with your email address. This should be the email address you used to create your GitHub account.
 ~~~
 git config --global user.email "YOUR EMAIL"
 ~~~

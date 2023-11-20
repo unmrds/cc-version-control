@@ -6,7 +6,7 @@ RStudio is one of several development environments that support Git based versio
 
 It is possible to use the GitHub Desktop application to manage a Git workflow of an RStudio project, or even just a folder with R scripts in it. The process would be similar to that described in the GitHub Desktop walkthrough tutorial included in this repository. In such cases, creating or cloning a repository, as well as all common workflow actions including adding, committing, pushing, and fetching/pulling, would be executed through the desktop application.
 
-The steps described below demonstrate how RStudio's Git based version control features can be used in parallel with, or as an alternative to, the desktop application. However, using these features requires a standalone instance of Git be installed on your local machine. This free, open source application is available for all platforms from <https://git-scm.com/>.
+The steps described below demonstrate how RStudio's Git based version control features can be used in parallel with, or as an alternative to, the desktop application. However, using these features requires that a standalone instance of Git be installed on your local machine. This free, open source application is available for all platforms from <https://git-scm.com/>.
 
 The standalone Git application shouldn't create conflicts with the GitHub desktop application (UNM RDS has been using both for some time and have not run into any problems). However, they are two different applications and don't share configuration information. So, before you can make commits or connect to a remote repository, Git needs to know some things about you.
 

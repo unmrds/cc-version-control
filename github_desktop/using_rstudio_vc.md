@@ -8,7 +8,7 @@ It is possible to use the GitHub Desktop application to manage a Git workflow of
 
 The steps described below demonstrate how RStudio's Git based version control features can be used in parallel with, or as an alternative to, the desktop application. However, using these features requires a standalone instance of Git be installed on your local machine. This free, open source application is available for all platforms from <https://git-scm.com/>.
 
-The standalone Git application shouldn't create conflicts with the GitHub desktop application (UNM RDS has been using both for some time and have not run into any problems). Before you can make commits or connect to a remote repository, Git needs to know some things about you.
+The standalone Git application shouldn't create conflicts with the GitHub desktop application (UNM RDS has been using both for some time and have not run into any problems). However, they are still two different applications and don't share configuration information. So, before you can make commits or connect to a remote repository, Git needs to know some things about you.
 
 1. Open a UNIX command line client (or "shell"). In Apple and Linux environments, this is the *terminal* application. In Windows, with Git installed as described above, from the Start Menu launch *Git Bash *. 
 1. In the shell, type the following command and press ENTER. Be sure to replace *YOUR NAME* with your name!

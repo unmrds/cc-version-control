@@ -56,7 +56,7 @@ We can use the GitHub desktop application to make this connection. In the deskto
 1.  From the *Current repository* tab, select *Add -\> Add existing repository*.
 2.  In the window that opens up, select *Choose...* and navigate to the RStudio project directory we just created. Remember that it has already been initialized as a Git repository.
 3.  Once selected, click *Add repository*.
-4.  Once the repository opens in the desktop app, note that we can view the changes and history here, too.
+4.  Once the repository opens in the desktop app, note that we can view the changes and history here, too. The layout is different from what we see in the Git tool in RStudio, but the history and any current changes should be the same.
 5.  Click the tab to *Publish repository*. Add a description and update other settings as appropriate.
 6.  When ready, click the *Publish repository* button again.
 7.  View the repository on GitHub to confirm that everything worked. Check the *.gitignore* file in GitHub to verify that the *data* directory is listed.
